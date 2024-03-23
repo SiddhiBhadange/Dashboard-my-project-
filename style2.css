@@ -1,0 +1,31 @@
+@media (max-width: 576px) {
+    .offcanvas-header {
+        width: 100%;
+    }
+    .container{
+        height: 100vh;
+    }
+}
+@media (max-width: 768px) {
+    .offcanvas-header {
+        width: 60%;
+    }
+    .container{
+        height: 98vh;
+    }
+    .search {
+        width: 50%;
+        right: 2%;
+    }
+}
+@media (max-width: 992px) {
+    .offcanvas-header {
+        width: 30%;
+    }
+    .container{
+        width: 66%; 
+    }
+    .search {
+        width: 50%;
+    }
+}
