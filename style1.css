@@ -26,18 +26,15 @@
     top:20%;
 }
 /* sidebar */
-.offcanvas-header{
-    display: inline-block;
-    width: 20%;
-    height: 101vh;
-    overflow-y:hidden ;
-    margin-top: 1vh;
-    z-index: 1;
-}
-.offcanvas-header .btn{
+ .first{
+    height: calc(100vh + 20px);
+    z-index: 4;
+} 
+
+.first .btn{
     position: relative;
     top: 18%;
-    left: 15%;
+    left: 10%;
     cursor: pointer;
 }
 .menu-item a:hover {
@@ -56,16 +53,12 @@
 .menu-item {
     list-style-type: none;
 }
+
 /* container */
-.container{
-    z-index: 1;
-    background-color: #cccbc8;
-    display: inline-block;
-    width: 76%;
-    height: 98vh;
-    margin: 2%;
-    margin-top: 1%;
-    text-wrap: initial;
+.contain{
+    margin: 10px;
+    height: 100vh;
+   background-color: #fffefb;
 }
 
 
